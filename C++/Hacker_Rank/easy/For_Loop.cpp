@@ -9,7 +9,7 @@ int main() {
     cin >> a >> b;
     
     for(int i = a; i <= b; i++){
-        if(i >= 1 and i <= 9) {
+        if(i >= 1 && i <= 9) {
         printf("%s\n", nums[i-1]);
         }
         else if(i > 9) {
